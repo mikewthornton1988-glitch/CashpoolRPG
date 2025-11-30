@@ -1,3 +1,5 @@
 python-telegram-bot==20.6
+supabase==1.0.3
+httpx==0.24.1
+pydantic==1.10.12
 python-dotenv==1.0.1
-httpx==0.25.2
