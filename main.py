@@ -178,7 +178,7 @@ async def tournaments_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     market = get_market()
     buttons = []
     for t in market["tournaments"]:
-        label = f\"{t['name']} – ${t['buy_in']:.0f} buy-in\"
+        label = f"{t['name']} - ${t['buy_in']:.0f} buy-in"
         buttons.append(
             [InlineKeyboardButton(label, callback_data=f\"join_{t['id']}\")]
         )
