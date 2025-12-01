@@ -4,50 +4,29 @@
       "id": "5wta",
       "name": "$5 Winner Takes All",
       "buy_in": 5.0,
-      "prize_pool_multiplier": 1.0,
-      "rules": {
-        "payout_type": "winner_takes_all",
-        "description": "One winner. Winner receives 100% of the prize pool."
-      }
+      "payout_type": "wta",
+      "prize_pool_pct": 0.75
     },
     {
       "id": "10wta",
       "name": "$10 Winner Takes All",
       "buy_in": 10.0,
-      "prize_pool_multiplier": 1.0,
-      "rules": {
-        "payout_type": "winner_takes_all",
-        "description": "One winner. Winner receives 100% of the prize pool."
-      }
+      "payout_type": "wta",
+      "prize_pool_pct": 0.75
     },
     {
       "id": "10top2",
       "name": "$10 Top-2 Payout",
       "buy_in": 10.0,
-      "prize_pool_multiplier": 1.0,
-      "rules": {
-        "payout_type": "top2",
-        "distribution": {
-          "1st": 0.65,
-          "2nd": 0.35
-        },
-        "description": "Top 2 players split the prize pool."
-      }
+      "payout_type": "top2",
+      "prize_pool_pct": 0.75
     },
     {
       "id": "20top3",
       "name": "$20 Top-3 Payout",
       "buy_in": 20.0,
-      "prize_pool_multiplier": 1.0,
-      "rules": {
-        "payout_type": "top3",
-        "distribution": {
-          "1st": 0.50,
-          "2nd": 0.30,
-          "3rd": 0.20
-        },
-        "description": "Top 3 players receive prize money."
-      }
+      "payout_type": "top3",
+      "prize_pool_pct": 0.75
     }
   ],
   "entries": []
