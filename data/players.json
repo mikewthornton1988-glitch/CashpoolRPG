@@ -1,1 +1,33 @@
-{}
+{
+  "tournaments": [
+    {
+      "id": "5wta",
+      "name": "$5 Winner Takes All",
+      "buy_in": 5.0,
+      "payout_type": "wta",
+      "prize_pool_pct": 0.75
+    },
+    {
+      "id": "10wta",
+      "name": "$10 Winner Takes All",
+      "buy_in": 10.0,
+      "payout_type": "wta",
+      "prize_pool_pct": 0.75
+    },
+    {
+      "id": "10top2",
+      "name": "$10 Top-2 Payout",
+      "buy_in": 10.0,
+      "payout_type": "top2",
+      "prize_pool_pct": 0.75
+    },
+    {
+      "id": "20top3",
+      "name": "$20 Top-3 Payout",
+      "buy_in": 20.0,
+      "payout_type": "top3",
+      "prize_pool_pct": 0.75
+    }
+  ],
+  "entries": []
+}
